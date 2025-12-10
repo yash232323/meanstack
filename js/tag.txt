@@ -1,0 +1,55 @@
+1. <!DOCTYPE html>
+
+Declares HTML5 document type.
+
+2. <html>
+
+Root element of the webpage.
+
+3. <head>
+
+Contains page title, CSS link, meta tags.
+
+4. <meta>
+
+Defines metadata (charset, viewport).
+
+5. <title>
+
+Sets the title of the webpage (shown in browser tab).
+
+6. <link>
+
+Used to connect external CSS file.
+
+7. <body>
+
+All visible content is inside this tag.
+
+8. <header>
+
+Top section containing the title and introduction.
+
+9. <h1>, <h2>, <h3>
+
+Heading tags with different sizes.
+
+10. <p>
+
+Paragraph text.
+
+11. <section>
+
+Used to group related content.
+
+12. <div>
+
+Container for grouping elements (used for cards).
+
+13. <img>
+
+Displays images.
+
+14. <footer>
+
+Bottom part of webpage, usually copyright info.
