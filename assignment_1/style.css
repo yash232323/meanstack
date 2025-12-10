@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+header {
+    background: url('https://source.unsplash.com/1600x500/?travel') no-repeat center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.places {
+    text-align: center;
+    padding: 40px;
+}
+
+.places h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
