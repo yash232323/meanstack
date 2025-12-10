@@ -3,48 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <Script>
-        function showAlert(){
-            let num1 = parseInt(document.getElementById("num1").value)
-            let num2 = parseInt(document.getElementById("num2").value)
-
-            let operation = document.getElementById("operation").value;
-
-            let result = "";
-
-            if (operation === "add") {
-                result = num1 + num2;
-            } else if (operation === "sub") {
-                result = num1 - num2;
-            } else if (operation === "mul") {
-                result = num1 * num2;
-            } else if (operation === "div") {
-                result = num1 / num2;
-            } else {
-                result = "Please select an operation!";
-            }
-
-            alert(`Result: ${result}`);
-
-            let sum = num1+ num2;
-            alert(`the sum of ${num1} and ${num2} is ${sum}`);
-        }
-    </Script>
+    <title>Travel & Tourism</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type = "text" placeholder="Enter number1 " id ="num1"><br><br>
-    <input type = "text" placeholder="Enter number2 " id = "num2"><br><br>
 
-    
-      <select id="operation">
-        <option value="">--Select Operation--</option>
-        <option value="add">Addition</option>
-        <option value="sub">Subtraction</option>
-        <option value="mul">Multiplication</option>
-        <option value="div">Division</option>
-    </select><br><br>
+    <header>
+        <h1>Explore The World</h1>
+        <p>Your journey starts here</p>
+    </header>
 
-   <button onClick = "showAlert()">Calculate</button> 
+    <section class="places">
+        <h2>Popular Destinations</h2>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?beach" alt="Beach">
+            <h3>Beautiful Beaches</h3>
+            <p>Relax on the golden sands and enjoy the ocean breeze.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?mountains" alt="Mountains">
+            <h3>Majestic Mountains</h3>
+            <p>Experience breathtaking views and adventurous trekking.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?city,travel" alt="City">
+            <h3>Modern Cities</h3>
+            <p>Discover vibrant nightlife, food, and culture.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Travel & Tourism. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
