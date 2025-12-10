@@ -40,25 +40,3 @@
 | `background-size: cover` | Fits background image |
 | `background-position: center` | Centers background |
 | `background-repeat: no-repeat` | Prevents repetition |
-
----
-
-## 🚀 How to Run
-
-1. Download or clone this repository.
-2. Open **index.html** in your browser.
-3. Ensure **style.css** is in the same folder.
-
----
-
-## 📸 Preview
-
-(Add screenshot here if you want)
-
----
-
-## 📌 Author
-Your Name (replace this)
-
----
-
